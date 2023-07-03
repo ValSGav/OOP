@@ -21,4 +21,11 @@ public class Owner extends Human {
     public List<Animal> getPets() {
         return pets;
     }
+
+    
+    @Override
+    public String toString(){
+        return this.getFullName();
+    }
+    
 }
