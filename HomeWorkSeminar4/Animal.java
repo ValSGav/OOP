@@ -54,19 +54,36 @@ public class Animal {
         return id;
     }
 
-    public static Map<String, String> convertStringDataToMap(String data) {
+    private static Map<String, String> getDefaultMapOfData() {
         Map<String, String> returnHashMap = new HashMap<String, String>();
+        returnHashMap.put("name", "-");
+        returnHashMap.put("age", "-");
+        returnHashMap.put("vaccination", "-");
+        returnHashMap.put("color", "-");
+        returnHashMap.put("species", "-");
+        returnHashMap.put("owner", "-");
+        returnHashMap.put("legsCount", "-");
+        returnHashMap.put("id", "-");
+        return returnHashMap;
+    }
 
+    public static Map<String, String> convertStringDataToMap(String data) {
+
+        Map<String, String> returnMap = getDefaultMapOfData();
         String[] dataSet = data.split(";");
 
         for (String currentData : dataSet
         ) {
             String[] currentKeyValue = currentData.split(":");
-            if (returnHashMap.containsKey(currentKeyValue[0])) {
-                returnHashMap.put(currentKeyValue[0], currentKeyValue[1]);
+            if (currentKeyValue.length == 2
+                    && returnMap.containsKey(currentKeyValue[0])) {
+                returnMap.put(currentKeyValue[0], currentKeyValue[1]);
             }
         }
+        return returnMap;
+    }
 
-        return returnHashMap;
+    public static String convertMapDataToString(Map<String, String> map) {
+
     }
 }
