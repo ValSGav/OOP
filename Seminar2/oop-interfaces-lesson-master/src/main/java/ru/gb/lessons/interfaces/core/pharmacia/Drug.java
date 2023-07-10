@@ -43,10 +43,11 @@ public class Drug implements Iterator<Component>, Comparable<Drug> {
     public String getDrugReprezentation() {
         StringBuilder sb = new StringBuilder();
 
-        for (Component currentComponent: this.components){
-                    sb.append(currentComponent.toString());
-                    sb.append(" ");
-        };
+        for (Component currentComponent : this.components) {
+            sb.append(currentComponent.toString());
+            sb.append(" ");
+        }
+        ;
         return sb.toString().stripIndent();
     }
 
@@ -81,8 +82,8 @@ public class Drug implements Iterator<Component>, Comparable<Drug> {
     public String toString() {
         return String.format(
                 "{%s (%s)}"
-                ,this.getDrugReprezentation()
-                ,Integer.toString(this.getPower()));
+                , this.getDrugReprezentation()
+                , Integer.toString(this.getPower()));
     }
 
     @Override
