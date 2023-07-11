@@ -2,11 +2,19 @@ package HomeWorkSeminar4;
 
 import java.io.Serializable;
 import java.util.Arrays;
+import java.util.Map;
 
 public class Cat extends Animal {
 
-    public Cat(String color, String species, Integer legsCount) {
+    int sweetLevel;
+
+    public Cat(String color, String species, Integer legsCount, int sweetLevel) {
         super(color, species, legsCount);
+        this.sweetLevel = sweetLevel;
+    }
+
+    public Cat() {
+        this("", "", 0, 0);
     }
 
     private void FIndFood() {
@@ -34,5 +42,12 @@ public class Cat extends Animal {
         FIndFood(args);
         Eat();
         Sleep();
+    }
+
+    @Override
+    public Map<String, String> getDefaultMapOfData() {
+        Map<String, String> returnMap = super.getDefaultMapOfData();
+        returnMap.put("sweetLevel", Integer.toString(sweetLevel));
+        return returnMap;
     }
 }
