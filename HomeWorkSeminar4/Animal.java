@@ -66,18 +66,10 @@ public class Animal {
         return id;
     }
 
-    public Map<String, String> getDefaultMapOfData() {
-        Map<String, String> returnHashMap = new HashMap<String, String>();
-        returnHashMap.put("name", "-");
-        returnHashMap.put("age", "-");
-        returnHashMap.put("vaccination", "-");
-        returnHashMap.put("color", "-");
-        returnHashMap.put("species", "-");
-        returnHashMap.put("owner", "-");
-        returnHashMap.put("legsCount", "-");
-        returnHashMap.put("id", "-");
-        return returnHashMap;
+    public void setId(int id) {
+        this.id = id;
     }
+
 
     public static Map<String, String> convertStringDataToMap(String data) {
 
@@ -105,8 +97,18 @@ public class Animal {
         return returnString.toString();
     }
 
-    public void setId(int id) {
-        this.id = id;
+
+    public Map<String, String> getDefaultMapOfData() {
+        Map<String, String> returnHashMap = new HashMap<String, String>();
+        returnHashMap.put("name", "-");
+        returnHashMap.put("age", "-");
+        returnHashMap.put("vaccination", "-");
+        returnHashMap.put("color", "-");
+        returnHashMap.put("species", "-");
+        returnHashMap.put("owner", "-");
+        returnHashMap.put("legsCount", "-");
+        returnHashMap.put("id", "-");
+        return returnHashMap;
     }
 
     public Map<String, String> getMapOfThisObject() {
