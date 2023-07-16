@@ -18,10 +18,14 @@ public class UserView {
         Commands com;
 
         while (true) {
+
             String command = prompt("Введите команду: ");
             com = Commands.valueOf(command);
-            if (com == Commands.EXIT) return;
+
             switch (com) {
+                case EXIT:
+                    userController.saveAllUsers();
+                    return;
                 case CREATE:
                     String firstName = prompt("Имя: ");
                     String lastName = prompt("Фамилия: ");
@@ -45,9 +49,27 @@ public class UserView {
                     } catch (Exception e) {
                         throw new RuntimeException();
                     }
+                    break;
+                case UPDATE:
+                    try {
+
+                        Long currentId = Long.parseLong(prompt("Введите ID обновляемого пользователя: "));
+
+                        User newUser = new User(currentId
+                                , prompt("Введите имя обновляемого пользователя: ")
+                                , prompt("Введите фамилию обновляемого пользователя: ")
+                                , prompt("Введите телефон обновляемого пользователя: "));
+
+                        userController.update(currentId, newUser);
+
+                    } catch (Exception e) {
+                        throw new RuntimeException();
+                    }
+                    break;
             }
         }
     }
+
 
     private String prompt(String message) {
         Scanner in = new Scanner(System.in);

@@ -1,7 +1,6 @@
 package HomeWorkSeminar5.src.notebook;
 
 import HomeWorkSeminar5.src.notebook.controller.UserController;
-import HomeWorkSeminar5.src.notebook.repository.impl.FileOperation;
 import HomeWorkSeminar5.src.notebook.model.User;
 import HomeWorkSeminar5.src.notebook.repository.GBRepository;
 import HomeWorkSeminar5.src.notebook.repository.impl.UserRepository;
@@ -13,8 +12,7 @@ import static HomeWorkSeminar5.src.notebook.util.DBConnector.createDB;
 public class Main {
     public static void main(String[] args) {
         createDB();
-        FileOperation fileOperation = new FileOperation(DB_PATH);
-        GBRepository<User, Long> repository = new UserRepository(fileOperation);
+        GBRepository<User, Long, String> repository = new UserRepository(DB_PATH);
         UserController controller = new UserController(repository);
         UserView view = new UserView(controller);
         view.run();

@@ -4,34 +4,39 @@ import HomeWorkSeminar5.src.notebook.mapper.impl.UserMapper;
 import HomeWorkSeminar5.src.notebook.model.User;
 import HomeWorkSeminar5.src.notebook.repository.GBRepository;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class UserRepository implements GBRepository<User, Long> {
+public class UserRepository implements GBRepository<User, Long, String> {
     private final UserMapper mapper;
-    private final FileOperation operation;
+    private final String fileName;
+    private final List<User> workUserList;
 
-    public UserRepository(FileOperation operation) {
+    public UserRepository(String fileName) {
+        workUserList = new ArrayList<User>();
         this.mapper = new UserMapper();
-        this.operation = operation;
+        this.fileName = fileName;
+        try (FileWriter writer = new FileWriter(fileName, true)) {
+            writer.flush();
+            for (String currenLine : readAll()) {
+                workUserList.add(this.mapper.toOutput(currenLine));
+            }
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     @Override
     public List<User> findAll() {
-        List<String> lines = operation.readAll();
-        List<User> users = new ArrayList<>();
-        for (String line : lines) {
-            users.add(mapper.toOutput(line));
-        }
-        return users;
+        return workUserList;
     }
 
     @Override
     public User create(User user) {
-        List<User> users = findAll();
         long max = 0L;
-        for (User u : users) {
+        for (User u : workUserList) {
             long id = u.getId();
             if (max < id) {
                 max = id;
@@ -39,27 +44,76 @@ public class UserRepository implements GBRepository<User, Long> {
         }
         long next = max + 1;
         user.setId(next);
-        users.add(user);
-        List<String> lines = new ArrayList<>();
-        for (User u : users) {
-            lines.add(mapper.toInput(u));
-        }
-        operation.saveAll(lines);
+        workUserList.add(user);
         return user;
     }
 
     @Override
     public Optional<User> findById(Long id) {
-        return Optional.empty();
+        return Optional.ofNullable(workUserList.get(id.intValue() - 1));
     }
 
     @Override
     public Optional<User> update(Long id, User user) {
+        for (User currentData : workUserList) {
+            if (currentData.getId() == user.getId()) {
+                currentData.setId(id);
+                currentData.setFirstName(user.getFirstName());
+                currentData.setLastName(user.getLastName());
+                currentData.setPhone(user.getPhone());
+            }
+        }
         return Optional.empty();
     }
 
     @Override
     public boolean delete(Long id) {
+        workUserList.remove(workUserList.get(id.intValue() - 1));
         return false;
     }
+
+    @Override
+    public List<String> readAll() {
+        List<String> lines = new ArrayList<>();
+        try {
+            File file = new File(fileName);
+            //создаем объект FileReader для объекта File
+            FileReader fr = new FileReader(file);
+            //создаем BufferedReader с существующего FileReader для построчного считывания
+            BufferedReader reader = new BufferedReader(fr);
+            // считаем сначала первую строку
+            String line = reader.readLine();
+            if (line != null) {
+                lines.add(line);
+            }
+            while (line != null) {
+                // считываем остальные строки в цикле
+                line = reader.readLine();
+                if (line != null) {
+                    lines.add(line);
+                }
+            }
+            fr.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return lines;
+    }
+
+    //Переделал метод saveAll, чтобы сохранять workUserList в базу данных(в файл)
+    @Override
+    public void saveAll() {
+        try (FileWriter writer = new FileWriter(fileName, false)) {
+            for (User item : workUserList) {
+                // запись всей строки
+                writer.write(mapper.toInput(item));
+                // запись по символам
+                writer.append('\n');
+            }
+            writer.flush();
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
 }

@@ -9,7 +9,7 @@ import java.util.Optional;
  * @param <E> тип модели данных
  * @param <I> тип ID модели данных E
  */
-public interface GBRepository<E, I> {
+public interface GBRepository<E, I, T> {
     List<E> findAll();
 
     E create(E e);
@@ -19,4 +19,9 @@ public interface GBRepository<E, I> {
     Optional<E> update(I id, E e);
 
     boolean delete(I id);
+
+    List<T> readAll();
+
+    void saveAll();
+
 }

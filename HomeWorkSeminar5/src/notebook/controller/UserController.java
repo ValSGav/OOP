@@ -4,31 +4,35 @@ import HomeWorkSeminar5.src.notebook.model.User;
 import HomeWorkSeminar5.src.notebook.repository.GBRepository;
 
 import java.util.List;
-import java.util.Objects;
 
 public class UserController {
-    private final GBRepository<User, Long> repository;
+    private final GBRepository<User, Long, String> repository;
 
-    public UserController(GBRepository<User, Long> repository) {
+    public UserController(GBRepository<User, Long, String> repository) {
         this.repository = repository;
     }
 
     public void saveUser(User user) {
         repository.create(user);
+        this.saveAllUsers();
     }
 
-    public User readUser(Long userId) throws Exception {
-        List<User> users = repository.findAll();
-        for (User user : users) {
-            if (Objects.equals(user.getId(), userId)) {
-                return user;
-            }
-        }
+    public void saveAllUsers() {
+        repository.saveAll();
+    }
 
-        throw new RuntimeException("User not found");
+    public User readUser(Long userId) {
+        return repository.findById(userId).get();
     }
 
     public List<User> readAllUser() {
-        return readAllUser();
+        return repository.findAll();
+    }
+
+    public void update(Long currentId, User user) {
+        user.setId(currentId);
+        repository.update(currentId, user);
+        this.saveAllUsers();
     }
 }
+
