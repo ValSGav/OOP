@@ -66,6 +66,12 @@ public class UserView {
                         throw new RuntimeException();
                     }
                     break;
+                case DELETE:
+                    try {
+                        userController.removeUser(Long.parseLong(prompt("Идентификатор удаляемого пользователя: ")));
+                    } catch (Exception exception) {
+                        throw new RuntimeException();
+                    }
             }
         }
     }

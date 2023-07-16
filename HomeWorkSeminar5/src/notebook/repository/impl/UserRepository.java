@@ -50,7 +50,13 @@ public class UserRepository implements GBRepository<User, Long, String> {
 
     @Override
     public Optional<User> findById(Long id) {
-        return Optional.ofNullable(workUserList.get(id.intValue() - 1));
+        for (User user : workUserList
+        ) {
+            if (user.getId() == id) {
+                return Optional.ofNullable(user);
+            }
+        }
+        return Optional.empty();
     }
 
     @Override
@@ -61,6 +67,7 @@ public class UserRepository implements GBRepository<User, Long, String> {
                 currentData.setFirstName(user.getFirstName());
                 currentData.setLastName(user.getLastName());
                 currentData.setPhone(user.getPhone());
+                return Optional.ofNullable(currentData);
             }
         }
         return Optional.empty();
@@ -68,8 +75,14 @@ public class UserRepository implements GBRepository<User, Long, String> {
 
     @Override
     public boolean delete(Long id) {
-        workUserList.remove(workUserList.get(id.intValue() - 1));
-        return false;
+        try {
+            System.out.println(findById(id));
+            workUserList.remove(findById(id).get());
+            return true;
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            return false;
+        }
     }
 
     @Override

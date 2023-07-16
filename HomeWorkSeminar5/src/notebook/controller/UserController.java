@@ -34,5 +34,10 @@ public class UserController {
         repository.update(currentId, user);
         this.saveAllUsers();
     }
+
+    public void removeUser(long id) {
+        repository.delete(id);
+        this.saveAllUsers();
+    }
 }
 

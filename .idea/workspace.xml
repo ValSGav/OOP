@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17dfa311-36d3-49a1-9c24-801ad1c3baf0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/repository/GBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/repository/GBRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/repository/Operation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/repository/impl/FileOperation.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/repository/impl/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/repository/impl/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/view/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/view/UserView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +87,7 @@
       <workItem from="1689412180349" duration="125000" />
       <workItem from="1689412313184" duration="781000" />
       <workItem from="1689413108052" duration="499000" />
-      <workItem from="1689413627725" duration="8702000" />
+      <workItem from="1689413627725" duration="9732000" />
     </task>
     <servers />
   </component>
