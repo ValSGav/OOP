@@ -1,8 +1,10 @@
 package Seminar6.src.isp1.pay.impl;
 
-import Seminar6.src.isp1.pay.Payable;
+import Seminar6.src.isp1.pay.PayableCreditCard;
+import Seminar6.src.isp1.pay.PayablePhoneNumber;
+import Seminar6.src.isp1.pay.PayableWebMoney;
 
-public class InternetPaymentService implements Payable {
+public class InternetPaymentService implements PayableCreditCard, PayableWebMoney, PayablePhoneNumber {
     @Override
     public void payWebMoney(int amount) {
         System.out.printf("Internet pay by web money %d\n", amount);

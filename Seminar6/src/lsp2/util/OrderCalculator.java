@@ -1,28 +1,28 @@
 package Seminar6.src.lsp2.util;
 
-import Seminar6.src.lsp2.model.Order;
+import Seminar6.src.lsp2.model.Orderable;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class OrderCalculator implements Iterable<Order> {
-    private List<Order> orders = new ArrayList<>();
+public class OrderCalculator implements Iterable<Orderable> {
+    private List<Orderable> orders = new ArrayList<>();
 
-    public void add(Order order) {
+    public void add(Orderable order) {
         orders.add(order);
     }
 
     public int calcAmount() {
         int sum = 0;
-        for (Order order : orders) {
+        for (Orderable order : orders) {
             sum += order.getAmount();
         }
         return sum;
     }
 
     @Override
-    public Iterator<Order> iterator() {
+    public Iterator<Orderable> iterator() {
         return orders.iterator();
     }
 }

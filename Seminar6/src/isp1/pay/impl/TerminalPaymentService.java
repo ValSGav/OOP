@@ -1,9 +1,9 @@
 package iSeminar6.src.sp1.pay.impl;
 
-import Seminar6.src.isp1.pay.Payable;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+import Seminar6.src.isp1.pay.PayableCreditCard;
+import Seminar6.src.isp1.pay.PayableWebMoney;
 
-public class TerminalPaymentService implements Payable {
+public class TerminalPaymentService implements PayableWebMoney, PayableCreditCard  {
 
     @Override
     public void payWebMoney(int amount) {
@@ -15,8 +15,4 @@ public class TerminalPaymentService implements Payable {
         System.out.printf("Terminal pay by credit card %d\n", amount);
     }
 
-    @Override
-    public void payPhoneNumber(int amount) {
-        throw new NotImplementedException();
-    }
 }

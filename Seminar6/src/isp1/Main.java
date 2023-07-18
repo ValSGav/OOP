@@ -13,6 +13,6 @@ public class Main {
         iSeminar6.src.sp1.pay.impl.TerminalPaymentService terminalService = new iSeminar6.src.sp1.pay.impl.TerminalPaymentService();
         terminalService.payWebMoney(10);
         terminalService.payCreditCard(10);
-        terminalService.payPhoneNumber(10);
+
     }
 }

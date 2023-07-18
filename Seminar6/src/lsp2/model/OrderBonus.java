@@ -1,6 +1,6 @@
 package Seminar6.src.lsp2.model;
 
-public class OrderBonus extends Order {
+public class OrderBonus extends Orderable {
 
     public OrderBonus(int quantity, int price) {
         super(quantity, price);

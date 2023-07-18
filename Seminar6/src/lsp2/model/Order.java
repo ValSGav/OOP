@@ -1,12 +1,9 @@
 package Seminar6.src.lsp2.model;
 
-public class Order {
-    private final int price;
-    private final int quantity;
+public class Order extends Orderable{
 
     public Order(int quantity, int price) {
-        this.price = price;
-        this.quantity = quantity;
+        super(quantity, price);
     }
 
     public int getAmount() {

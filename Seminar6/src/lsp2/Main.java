@@ -1,7 +1,7 @@
 package Seminar6.src.lsp2;
 
 import Seminar6.src.lsp2.factory.OrderFactory;
-import Seminar6.src.lsp2.model.Order;
+import Seminar6.src.lsp2.model.Orderable;
 import Seminar6.src.lsp2.util.OrderCalculator;
 
 public class Main {
@@ -11,7 +11,7 @@ public class Main {
         calculator.add(creator.create(3, 2, false));
         calculator.add(creator.create(1, 3, true));
 
-        for (Order order : calculator) {
+        for (Orderable order : calculator) {
             System.out.println(order);
         }
 

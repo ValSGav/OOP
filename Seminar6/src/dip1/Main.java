@@ -1,6 +1,9 @@
 package Seminar6.src.dip1;
 
 import Seminar6.src.dip1.model.Report;
+import Seminar6.src.dip1.model.ReportManager;
+import Seminar6.src.dip1.model.util.ConsolePrinter;
+import Seminar6.src.dip1.model.util.ReportPrinter;
 import Seminar6.src.logger.Log;
 
 import java.util.logging.Level;
@@ -13,6 +16,9 @@ public class Main {
         log.log(Level.INFO, "Method main in model package started");
         Report report = new Report();
         report.calculate();
-        report.output();
+        ReportManager manager = new ReportManager(new ReportPrinter());
+        manager.output(report.getItems());
+        manager.setPrinter(new ConsolePrinter());
+        manager.output(report.getItems());
     }
 }
