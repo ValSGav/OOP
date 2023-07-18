@@ -6,15 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="17dfa311-36d3-49a1-9c24-801ad1c3baf0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/repository/impl/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/repository/impl/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/view/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorkSeminar5/src/notebook/view/UserView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -29,6 +34,9 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectId" id="2RyWIjFMRbpazkjIwIL3JrhzPZW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,15 +48,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "jbr-17",
-    "last_opened_file_path": "C:/Geekbrains/JavaOOP",
+    "last_opened_file_path": "C:/Разработка/old/OOP_new",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Geekbrains/JavaOOP/untitled/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.14160156",
     "project.structure.side.proportion": "0.52050114",
     "rearrange.code.on.save": "true",
@@ -56,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Seminar6.src.srp2.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -72,6 +81,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Seminar6.src.srp1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminar6.src.srp1.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seminar6.src.srp1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Seminar6.src.srp2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminar6.src.srp2.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seminar6.src.srp2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Seminar6.src.srp2.Main" />
+        <item itemvalue="Application.Seminar6.src.srp1.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
