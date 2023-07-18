@@ -14,8 +14,8 @@ public class Main {
         Donats meatPie = new Donats("pie", "meet");
 
         for (int i = 0; i < VendingMachines.length; i++) {
-            VendingMachines[i] = new DonatsAndHotDrinksVendingMaсhine();
-        VendingMachines[i].setLocationAddress(String.format("Помещение № %d", i));    
+            VendingMachines[i] = new DonatsAndHotDrinksVendingMachine();
+            VendingMachines[i].setLocationAddress(String.format("Помещение № %d", i));
         }
 
         System.out.println(VendingMachines[0].setCurrentProduct(coffe));
@@ -26,17 +26,17 @@ public class Main {
         System.out.println(VendingMachines[1].setCurrentProduct(meatPie));
         System.out.println(VendingMachines[1].addSugar());
         System.out.println(VendingMachines[1].getProduct());
-        System.out.println();        
+        System.out.println();
 
         System.out.println(VendingMachines[2].setCurrentProduct(tea));
         System.out.println(VendingMachines[2].getProduct());
         System.out.println();
-        
+
         System.out.println(VendingMachines[3].setCurrentProduct(cabbagePie));
         System.out.println(VendingMachines[3].addSugar());
         System.out.println(VendingMachines[3].getProduct());
-        System.out.println();        
-        
+        System.out.println();
+
     }
 
 }
