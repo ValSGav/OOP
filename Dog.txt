@@ -22,3 +22,4 @@ owner:unknown;legsCount:4;color:Black;species:what;name:;id:818193;age:0;vaccina
 owner:unknown;legsCount:4;color:Black;species:what;name:;id:764334;age:0;vaccination:
 owner:unknown;legsCount:4;color:Black;species:what;name:;id:490923;age:0;vaccination:
 owner:unknown;legsCount:4;color:Black;species:what;name:;id:579530;age:0;vaccination:
+owner:unknown;legsCount:4;color:Black;species:what;name:;id:348581;age:0;vaccination:

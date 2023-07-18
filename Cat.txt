@@ -1,5 +1,5 @@
-owner:unknown;legsCount:4;name:Kitty;id:907243;age:4;sweetLevel:5;vaccination:is vaccinated
 owner:unknown;legsCount:4;name:Kitty;id:208371;age:4;sweetLevel:5;vaccination:is vaccinated
-owner:unknown;legsCount:4;color:white;species:is;id:785319;age:0;sweetLevel:10
+owner:unknown;legsCount:4;name:Kitty;id:785319;age:4;sweetLevel:5;vaccination:is vaccinated
 owner:unknown;legsCount:4;color:white;species:is;id:347901;age:0;sweetLevel:10
 owner:unknown;legsCount:4;color:white;species:is;id:139379;age:0;sweetLevel:10
+owner:unknown;legsCount:4;color:white;species:is;id:905744;age:0;sweetLevel:10
