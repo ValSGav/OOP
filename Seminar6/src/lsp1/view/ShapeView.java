@@ -1,11 +1,11 @@
 package Seminar6.src.lsp1.view;
 
-import Seminar6.src.lsp1.shape.Rectangle;
+import Seminar6.src.lsp1.shape.Quadrilateral;
 
 public class ShapeView {
-    private final Rectangle rectangle;
+    private final Quadrilateral rectangle;
 
-    public ShapeView(Rectangle rectangle) {
+    public ShapeView(Quadrilateral rectangle) {
         this.rectangle = rectangle;
     }
 

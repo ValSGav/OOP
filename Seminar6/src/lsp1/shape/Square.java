@@ -1,23 +1,20 @@
 package Seminar6.src.lsp1.shape;
 
-public class Square extends Rectangle {
+public class Square extends Quadrilateral {
 
     public Square(int side) {
-        super(side, side);
+        setSideA(side);
+    }
+
+    public void setSideA(int side) {
+        this.sideA = side;
+        this.sideB = side;
+        this.sideC = side;
+        this.sideD = side;
     }
 
     @Override
-    public void setSideA(int sideA) {
-        super.setSideA(sideA);
-    }
-
-    @Override
-    public void setSideB(int sideB) {
-        super.setSideA(sideB);
-    }
-
-    @Override
-    public int getArea() {
-        return (int) Math.pow(getSideA(), 2);
+    public double getArea() {
+        return (double) Math.pow(sideA, 2);
     }
 }

@@ -1,31 +1,23 @@
 package Seminar6.src.lsp1.shape;
 
-public class Rectangle {
-    private int sideA;
-    private int sideB;
+public class Rectangle extends Quadrilateral {
 
     public Rectangle(int sideA, int sideB) {
         this.setSideA(sideA);
         this.setSideB(sideB);
     }
 
-    public int getSideA() {
-        return sideA;
-    }
-
     public void setSideA(int sideA) {
         this.sideA = sideA;
-    }
-
-    public int getSideB() {
-        return sideB;
+        this.sideC = sideA;
     }
 
     public void setSideB(int sideB) {
         this.sideB = sideB;
+        this.sideD = sideB;
     }
 
-    public int getArea() {
+    public double getArea() {
         return sideA * sideB;
     }
 }
