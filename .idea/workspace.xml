@@ -5,39 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bba5085-1fae-472b-aad0-ed24258d4e72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Log.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notebook/model/IRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notebook/model/impl/NotebookRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notebook/repository/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/dip1/model/ReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/dip1/model/Reportable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/dip1/model/util/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/homework/Controller/Persisterable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/homework/Controller/Reportable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/homework/Controller/impl/Persister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/homework/Controller/impl/Reporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/homework/Model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/homework/Model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/homework/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/isp1/pay/PayableCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/isp1/pay/PayablePhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/isp1/pay/PayableWebMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/src/lsp2/model/Orderable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/dip1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/dip1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/dip1/model/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/dip1/model/Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/dip1/model/util/ReportPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/dip1/model/util/ReportPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/homework/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/homework/Persister.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/homework/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/isp1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/isp1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/isp1/pay/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/isp1/pay/Payable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/isp1/pay/impl/InternetPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/isp1/pay/impl/InternetPaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/isp1/pay/impl/TerminalPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/isp1/pay/impl/TerminalPaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/lsp2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/lsp2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/lsp2/factory/OrderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/lsp2/factory/OrderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/lsp2/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/lsp2/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/lsp2/model/OrderBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/lsp2/model/OrderBonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar6/src/lsp2/util/OrderCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar6/src/lsp2/util/OrderCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/MS200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/MeteoSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/MeteoStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/ST500Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/ST500Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/SensorTemperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/builder/item/Characteristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/builder/item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/builder/item/impl/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/builder/item/impl/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/builder/shop/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/Calculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/CalculableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/CalculatorDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/CalculatorDecoratorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/CalculatorView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/ICalculableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/log/ConsoleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/log/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/JobAgency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seninar7/src/observerNew/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,30 +68,34 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/GeekBrains/OOP&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Geekbrains/JavaOOP/Seninar7/src/observer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GeekBrains\OOP" />
       <recent name="C:\GeekBrains\OOP\Seminar5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Seminar6.src.homework.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminar6.src.lsp2.Main" />
+      <option name="MAIN_CLASS_NAME" value="Seninar7.src.observer.jobagency.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seminar6.src.lsp2.*" />
+          <option name="PATTERN" value="Seninar7.src.observer.jobagency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Seminar6.src.lsp1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminar6.src.lsp1.Main" />
+    <configuration name="Seninar7.src.decorator.factory.calculator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seninar7.src.decorator.factory.calculator.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seminar6.src.lsp1.*" />
+          <option name="PATTERN" value="Seninar7.src.decorator.factory.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Seninar7.src.decorator.factory.calculator.Main" />
         <item itemvalue="Application.Seminar6.src.homework.Main" />
         <item itemvalue="Application.Seminar6.src.dip1.Main" />
         <item itemvalue="Application.Seminar6.src.isp1.Main" />
-        <item itemvalue="Application.Seminar6.src.lsp1.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
