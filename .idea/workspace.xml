@@ -5,39 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bba5085-1fae-472b-aad0-ed24258d4e72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/MS200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/MeteoSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/MeteoStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/ST500Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/ST500Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/adapter/meteo/SensorTemperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/builder/item/Characteristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/builder/item/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/builder/item/impl/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/builder/item/impl/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/builder/shop/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/Calculable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/CalculableFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/CalculatorDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/CalculatorDecoratorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/CalculatorView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/ICalculableFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/factory/calculator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/log/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/decorator/log/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/JobAgency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/Master.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/observer/jobagency/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seninar7/src/observerNew/Subscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/Componentable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/Operationable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Divisionable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Multiplicationable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/PriorityOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/PriorityThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/PriorityTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Substractinable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Summable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/impl/Div.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/impl/Mult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/impl/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/impl/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
