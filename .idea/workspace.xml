@@ -5,22 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bba5085-1fae-472b-aad0-ed24258d4e72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/Componentable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/Operationable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Divisionable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Multiplicationable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/PriorityOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/PriorityThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/PriorityTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Substractinable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Summable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/impl/Div.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/impl/Mult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/impl/Sub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/impl/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/Valueable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Expression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/Componentable.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalHomeWork/model/Componentable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/Operationable.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalHomeWork/model/Operationable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operand.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Divisionable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Multiplicationable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/PriorityOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/PriorityTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Substractinable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Summable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/impl/Div.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Div.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/impl/Mult.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Mult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/impl/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Sub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/impl/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalHomeWork/model/impl/Operations/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/VetClinic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/Animals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/Flyable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/Runnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/Soundable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/Swimable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/home/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/home/impl/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/home/impl/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/home/impl/Petfish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/owners/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/supports/Record.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/wild/WildAnimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/wild/impl/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/wild/impl/Pigeon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/clients/wild/impl/WildCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/personal/DoctorBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/personal/NurseBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/personal/specialists/DoctorAnesthesiologist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/personal/specialists/DoctorSurgeon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/personal/specialists/DoctorTherapist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/personal/specialists/assistantNurse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/personal/specialists/headNurse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/personal/specialities/Anesthesiologist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/personal/specialities/DressingRoomNurse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/personal/specialities/JuniorNurse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/personal/specialities/Surgeon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/personal/specialities/Therapist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/pharmacia/Component.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/pharmacia/Drug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/oop-interfaces-lesson-master/src/main/java/ru/gb/lessons/interfaces/core/pharmacia/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +90,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Geekbrains/JavaOOP/Seninar7/src/observer",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Geekbrains/JavaOOP",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "copyright",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -168,7 +206,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689102598574</updated>
+      <workItem from="1690269514945" duration="8394000" />
+      <workItem from="1690279830284" duration="941000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
 </project>
